@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political Crime Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Political Crime Database</h1>
+        </header>
+
+        <section>
+            <input type="text" id="search" placeholder="Search Crimes...">
+            <button id="loadCrimesBtn">Load Crimes</button>
+            <button id="addCrimeBtn">Add Crime</button>
+
+            <table id="crime-table">
+                <thead>
+                    <tr>
+                        <th>Case ID</th>
+                        <th>Crime Type</th>
+                        <th>Location</th>
+                        <th>Date</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
